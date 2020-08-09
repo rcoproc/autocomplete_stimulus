@@ -25,3 +25,18 @@
  .has-error > div {
   color: #a94442;
  }
+
+ ul.autocomplete {
+  list-style-type: none;
+  border: 1px black solid;
+}
+
+.autocomplete li {
+  display: relative;
+  list-style: none;
+  padding: 10px;
+}
+
+.autocomplete li:hover {
+  background-color: bisque;
+}
